@@ -1,7 +1,7 @@
 :root {
-    --primary: #003366; /* Azul Unicamp/Engenharia */
-    --accent: #ffcc00;  /* Amarelo destaque */
-    --light: #f4f4f4;
+    --primary: #253b51; /* Azul Unicamp/Engenharia */
+    --accent: #6c8cab;  /* Amarelo destaque */
+    --light: #c6c6c6;
     --dark: #1a1a1a;
 }
 
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
