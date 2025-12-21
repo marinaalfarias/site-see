@@ -16,7 +16,7 @@ body {
     line-height: 1.6;
     color: var(--dark);
 }
-
+    
 /* Navegação */
 nav {
     display: flex;
@@ -24,7 +24,7 @@ nav {
     align-items: center;
     padding: 1rem 5%;
     background: var(--primary);
-    color: white;
+    color: rgb(248, 246, 246);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(248, 246, 246);
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,14 +52,14 @@ nav {
 /* Hero Section */
 header {
     height: 90vh;
-    background: linear-gradient(rgba(0,51,102,0.8), rgba(0,51,102,0.8)), url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Imagem genérica de tecnologia */
+    background: linear-gradient(#253b51, #6484a4, #658095, #6c8cab), url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Imagem genérica de tecnologia */
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgb(248, 246, 246);
 }
 
 .hero-content h1 { font-size: 3rem; margin-bottom: 0.5rem; }
@@ -76,7 +76,7 @@ header {
     transition: 0.3s;
 }
 
-.cta-button:hover { background: #e6b800; }
+.cta-button:hover { background: #c6c6c6; }
 
 /* Seções Gerais */
 .container {
