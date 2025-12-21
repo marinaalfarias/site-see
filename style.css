@@ -113,3 +113,22 @@ footer {
     padding: 2rem;
     margin-top: auto;
 }
+
+/* Estilo dos botões dentro dos cards */
+.btn-card {
+    display: inline-block;
+    margin-top: 15px; /* Espaço acima do botão */
+    padding: 8px 16px;
+    background-color: var(--primary); /* Usa o azul definido no início */
+    color: white;
+    text-decoration: none; /* Tira o sublinhado do link */
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-card:hover {
+    background-color: var(--accent); /* Fica amarelo quando passa o mouse */
+    color: var(--primary);
+}
