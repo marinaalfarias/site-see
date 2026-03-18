@@ -1,3 +1,10 @@
+/*
+    Arquivo: evento.js
+    Função: renderizar dinamicamente a lista de eventos ou os detalhes de um evento específico.
+    - Atualize os dados dos eventos (título, descrição, speakers, inscrição) dentro do objeto `eventos`.
+    - A página `evento.html` usa a query string `?evento=dia1|dia2|dia3` para escolher o que renderizar.
+*/
+
 const eventos = {
     dia1: {
         title: 'Dia 1 - Abertura',
