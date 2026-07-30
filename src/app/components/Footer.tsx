@@ -2,11 +2,9 @@ import { Instagram, Linkedin, Mail, Facebook, Twitter } from 'lucide-react';
 
 export function Footer() {
   const socialLinks = [
-    { icon: <Instagram size={20} />, url: 'https://instagram.com/SEE.unicamp', label: 'Instagram' },
-    { icon: <Linkedin size={20} />, url: 'https://linkedin.com/company/SEE-unicamp', label: 'LinkedIn' },
-    { icon: <Facebook size={20} />, url: 'https://facebook.com/SEE.unicamp', label: 'Facebook' },
-    { icon: <Twitter size={20} />, url: 'https://twitter.com/SEE_unicamp', label: 'Twitter' },
-    { icon: <Mail size={20} />, url: 'mailto:contato@SEE.unicamp.br', label: 'Email' },
+    { icon: <Instagram size={20} />, url: 'https://www.instagram.com/see.unicamp/', label: 'Instagram' },
+    { icon: <Linkedin size={20} />, url: 'https://www.linkedin.com/company/semana-da-engenharia-elétrica-see/posts/?feedView=all', label: 'LinkedIn' },
+    { icon: <Mail size={20} />, url: 'mailto:seefeec@unicamp.br', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -39,7 +37,7 @@ export function Footer() {
             </div>
             <p className="text-sm opacity-80 mb-4">
               Semana da Engenharia Elétrica da Unicamp -
-              Conectando estudantes, profissionais e empresas desde 2011.
+              Conectando estudantes, profissionais e empresas.
             </p>
           </div>
 
@@ -83,9 +81,6 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-primary-foreground/10 text-center text-sm opacity-80">
-          <p>© 2026 SEE Unicamp. Todos os direitos reservados.</p>
-        </div>
       </div>
     </footer>
   );
