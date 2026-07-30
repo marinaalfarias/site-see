@@ -54,8 +54,8 @@ export function ForCompanies() {
                   <Mail size={20} />
                 </div>
                 <p className="text-sm text-muted-foreground mb-1">Email</p>
-                <a href="mailto:patrocinio@seee.unicamp.br" className="hover:text-primary transition-colors">
-                  patrocinio@seee.unicamp.br
+                <a href="mailto:patrocinio@SEE.unicamp.br" className="hover:text-primary transition-colors">
+                  patrocinio@SEE.unicamp.br
                 </a>
               </div>
 
@@ -80,7 +80,7 @@ export function ForCompanies() {
 
             <div className="text-center">
               <a
-                href="mailto:patrocinio@seee.unicamp.br"
+                href="mailto:patrocinio@SEE.unicamp.br"
                 className="inline-block px-8 py-4 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
               >
                 Solicitar Proposta de Patrocínio

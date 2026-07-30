@@ -1,16 +1,16 @@
 "use client";
 
 import * as React from "react";
-import useEmblaCarousel, {
-  type UseEmblaCarouselType,
+import uSEEmblaCarousel, {
+  type USEEmblaCarouselType,
 } from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 import { cn } from "./utils";
 import { Button } from "./button";
 
-type CarouselApi = UseEmblaCarouselType[1];
-type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
+type CarouselApi = USEEmblaCarouselType[1];
+type UseCarouselParameters = Parameters<typeof uSEEmblaCarousel>;
 type CarouselOptions = UseCarouselParameters[0];
 type CarouselPlugin = UseCarouselParameters[1];
 
@@ -22,8 +22,8 @@ type CarouselProps = {
 };
 
 type CarouselContextProps = {
-  carouselRef: ReturnType<typeof useEmblaCarousel>[0];
-  api: ReturnType<typeof useEmblaCarousel>[1];
+  carouselRef: ReturnType<typeof uSEEmblaCarousel>[0];
+  api: ReturnType<typeof uSEEmblaCarousel>[1];
   scrollPrev: () => void;
   scrollNext: () => void;
   canScrollPrev: boolean;
@@ -51,7 +51,7 @@ function Carousel({
   children,
   ...props
 }: React.ComponentProps<"div"> & CarouselProps) {
-  const [carouselRef, api] = useEmblaCarousel(
+  const [carouselRef, api] = uSEEmblaCarousel(
     {
       ...opts,
       axis: orientation === "horizontal" ? "x" : "y",
@@ -88,12 +88,12 @@ function Carousel({
     [scrollPrev, scrollNext],
   );
 
-  React.useEffect(() => {
+  React.uSEEffect(() => {
     if (!api || !setApi) return;
     setApi(api);
   }, [api, setApi]);
 
-  React.useEffect(() => {
+  React.uSEEffect(() => {
     if (!api) return;
     onSelect(api);
     api.on("reInit", onSelect);
