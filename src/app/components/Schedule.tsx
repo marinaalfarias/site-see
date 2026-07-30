@@ -4,25 +4,33 @@ export function Schedule() {
   const schedule = [
     {
       day: 'Segunda-feira',
-      date: '15/09',
+      date: '10/08',
       events: [
         {
-          time: '09:00 - 10:30',
-          title: 'Cerimônia de Abertura',
-          speaker: 'Diretoria da FEEC',
-          location: 'Auditório Principal',
+          time: '09:00 - 12:00',
+          title: 'Visita técnica ao Sirius',
+          speaker: 'Equipe CNPEM e professor alguém ',
+          location: 'Saída do ônibus da FEEC',
+          ctaLabel: 'Inscreva-se',
+          ctaHref: '#inscricoes',
         },
         {
-          time: '11:00 - 12:30',
-          title: 'Inteligência Artificial na Engenharia Elétrica',
-          speaker: 'Dr. João Silva - Google',
-          location: 'Sala 301',
+          time: '13:00 - 14:30',
+          title: 'Palestra Cadence',
+          speaker: '-',
+          location: '-',
         },
         {
-          time: '14:00 - 17:00',
-          title: 'Workshop: IoT e Sistemas Embarcados',
-          speaker: 'Equipe Technical Labs',
-          location: 'Laboratório 2',
+          time: '15:00 - 16:00',
+          title: 'Palestra Radaz',
+          speaker: '*',
+          location: '*',
+        },
+        {
+          time: '18:00 - 19:30',
+          title: 'Palestra de Abertura',
+          speaker: '*',
+          location: '*',
         },
       ],
     },
@@ -31,21 +39,21 @@ export function Schedule() {
       date: '16/09',
       events: [
         {
-          time: '09:00 - 12:00',
-          title: 'Hackathon - Fase 1',
-          speaker: 'Patrocinadores',
-          location: 'Sala de Eventos',
+          time: '12:00 - 15:30',
+          title: 'Enterprise Day',
+          speaker: 'Parceria com a SECOMP!',
+          location: 'COMVEST',
         },
         {
-          time: '14:00 - 15:30',
-          title: 'Energia Renovável e Sustentabilidade',
-          speaker: 'Dra. Maria Santos - ONS',
-          location: 'Auditório Principal',
+          time: '16:00 - 17:00',
+          title: 'Palestra Tractian',
+          speaker: '*',
+          location: '*',
         },
         {
-          time: '16:00 - 18:00',
-          title: 'Mesa Redonda: Carreira em Tech',
-          speaker: 'Painelistas de Diversas Empresas',
+          time: '19:30 - 21:00',
+          title: 'Roda de conversa com Ex-Alunas',
+          speaker: 'Parceria com o Coletivo das Minas!',
           location: 'Sala 301',
         },
       ],
@@ -55,20 +63,22 @@ export function Schedule() {
       date: '17/09',
       events: [
         {
-          time: '09:00 - 10:30',
-          title: 'Sistemas de Potência do Futuro',
+          time: '10:00 - 11:00',
+          title: 'Palestra HwiT',
           speaker: 'Eng. Carlos Oliveira - CPFL',
           location: 'Auditório Principal',
         },
         {
-          time: '11:00 - 13:00',
-          title: 'Workshop: Machine Learning em Sistemas Elétricos',
+          time: '14:00 - 16:30',
+          title: 'Visita Técnica à HwiT',
           speaker: 'Prof. Ana Costa - Unicamp',
           location: 'Laboratório 3',
+          ctaLabel: 'Inscreva-se',
+          ctaHref: '#inscricoes',
         },
         {
-          time: '14:00 - 17:00',
-          title: 'Feira de Empresas',
+          time: '19:30 - 21:00',
+          title: 'Roda de conversa com Ex-Alunos',
           speaker: 'Patrocinadores',
           location: 'Pátio Central',
         },
@@ -80,19 +90,21 @@ export function Schedule() {
       events: [
         {
           time: '09:00 - 12:00',
-          title: 'Hackathon - Fase Final',
-          speaker: 'Patrocinadores',
+          title: 'Visita CSSNano',
+          speaker: 'Professor algo',
           location: 'Sala de Eventos',
+          ctaLabel: 'Inscreva-se',
+          ctaHref: '#inscricoes',
         },
         {
-          time: '14:00 - 15:30',
-          title: '5G e Telecomunicações',
+          time: '15:00 - 16:30',
+          title: 'Palestra Siemens Energy',
           speaker: 'Equipe Vivo',
           location: 'Auditório Principal',
         },
         {
-          time: '16:00 - 18:00',
-          title: 'Robótica e Automação Industrial',
+          time: '19:30 - 21:00',
+          title: 'Roda de conversa com Ex-Alunos',
           speaker: 'Eng. Pedro Alves - Siemens',
           location: 'Sala 301',
         },
@@ -163,6 +175,14 @@ export function Schedule() {
                           <MapPin size={14} />
                           <span>{event.location}</span>
                         </div>
+                        {event.ctaLabel && event.ctaHref && (
+                          <a
+                            href={event.ctaHref}
+                            className="inline-flex items-center mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity text-sm"
+                          >
+                            {event.ctaLabel}
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
