@@ -4,12 +4,12 @@ export function PastEditions() {
   const stats = [
     {
       icon: <Users size={32} />,
-      value: '2.500+',
+      value: '1.500+',
       label: 'Participantes ao longo dos anos',
     },
     {
       icon: <Building2 size={32} />,
-      value: '50+',
+      value: '20+',
       label: 'Empresas parceiras',
     },
     {
@@ -19,17 +19,17 @@ export function PastEditions() {
     },
     {
       icon: <TrendingUp size={32} />,
-      value: '15',
+      value: '26',
       label: 'Anos de história',
     },
   ];
 
   const pastCompanies = [
-    'Google', 'Microsoft', 'Amazon', 'Siemens', 'ABB',
-    'Schneider Electric', 'CPFL Energia', 'Petrobras', 'Embraer',
-    'Ericsson', 'Nokia', 'Motorola', 'Samsung', 'LG',
-    'General Electric', 'WEG', 'Cemig', 'Elektro', 'TIM',
-    'Vivo', 'Claro', 'Huawei', 'Cisco', 'IBM',
+    'BYD', 'ElDorado', 'CPFL Energy', 'Siemens Energy', 'CPQD',
+    'Bosch', 'Ericsson', 'Samsung', 'Embraer',
+    'Ericsson', 'CNPEM', 'Padtec', '3M', 'INPE',
+    'Cistek', 'NEO Energia', 'General Motors', 'IBM', 'Marelli',
+    'Motorola', 'Petrobras', 'Semikron', 'Tetrapak', 'Shell',
   ];
 
   return (
