@@ -28,15 +28,15 @@ export function Hero() {
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           <div className="flex items-center gap-2 text-foreground/80">
             <Calendar size={20} />
-            <span>15 a 19 de Setembro, 2026</span>
+            <span>10 a 14 de agosto, 2026</span>
           </div>
           <div className="flex items-center gap-2 text-foreground/80">
             <MapPin size={20} />
-            <span>Faculdade de Engenharia Elétrica - Unicamp</span>
+            <span>Faculdade de Engenharia Elétrica e Computação (FEEC) - Unicamp</span>
           </div>
           <div className="flex items-center gap-2 text-foreground/80">
             <Users size={20} />
-            <span>Mais de 500 participantes esperados</span>
+            <span>Mais de 100 participantes esperados</span>
           </div>
         </div>
 
