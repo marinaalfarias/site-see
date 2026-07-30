@@ -1,3 +1,4 @@
+
 import { Lightbulb, Rocket, Users, Trophy } from 'lucide-react';
 
 export function About() {
@@ -9,18 +10,13 @@ export function About() {
     },
     {
       icon: <Rocket size={32} />,
-      title: 'Workshops',
-      description: 'Oficinas práticas sobre tecnologias emergentes e inovadoras',
+      title: 'Rodas de conversa',
+      description: 'Momentos de troca e conselhos sobre carreira e desenvolvimento profissional',
     },
     {
       icon: <Users size={32} />,
       title: 'Networking',
       description: 'Conecte-se com empresas, professores e colegas da área',
-    },
-    {
-      icon: <Trophy size={32} />,
-      title: 'Competições',
-      description: 'Desafios técnicos e hackathons com prêmios incríveis',
     },
   ];
 
