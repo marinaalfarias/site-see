@@ -30,7 +30,7 @@ export function Header() {
               <span className="text-primary-foreground">⚡</span>
             </div>
             <div>
-              <h3 className="text-sm">SEEE</h3>
+              <h3 className="text-sm">SEE</h3>
               <p className="text-xs text-muted-foreground">Unicamp 2026</p>
             </div>
           </div>
