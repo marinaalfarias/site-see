@@ -27,7 +27,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground">⚡</span>
+              <span className="text-primary-foreground"><img src="/src/assets/logo.png" alt="Logo" className="w-full h-full object-contain" /></span>
             </div>
             <div>
               <h3 className="text-sm">SEE</h3>
