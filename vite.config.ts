@@ -17,7 +17,11 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: './',
+  // If this repository is served as a project page at
+  // https://see-unicamp.github.io/see-unicamp/ set the base accordingly.
+  // If you use a custom domain, change to '/'.
+  base: '/see-unicamp/',
+
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
