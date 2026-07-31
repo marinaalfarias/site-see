@@ -27,8 +27,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center">
-                <span className="text-2xl">⚡</span>
+              <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center overflow-hidden">
+                <img
+                  src="/src/assets/logo.png"
+                  alt="Logo"
+                  className="w-[80%] h-[80%] object-contain"
+                />
               </div>
               <div>
                 <h3>SEE Unicamp</h3>

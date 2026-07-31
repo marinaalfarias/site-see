@@ -12,7 +12,7 @@ export function Schedule() {
           speaker: 'Equipe CNPEM e professor alguém ',
           location: 'Saída do ônibus da FEEC',
           ctaLabel: 'Inscreva-se',
-          ctaHref: '#inscricoes',
+          ctaHref: 'https://forms.gle/yDHLMRQi997iJ1rX6',
         },
         {
           time: '13:00 - 14:30',
@@ -74,7 +74,7 @@ export function Schedule() {
           speaker: 'Prof. Ana Costa - Unicamp',
           location: 'Laboratório 3',
           ctaLabel: 'Inscreva-se',
-          ctaHref: '#inscricoes',
+          ctaHref: '#https://forms.gle/o8NwVUrHVQDZNX326',
         },
         {
           time: '19:30 - 21:00',

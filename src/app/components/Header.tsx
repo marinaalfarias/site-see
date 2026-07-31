@@ -26,8 +26,12 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground">⚡</span>
+            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+              <img
+                src="/src/assets/logo.png"
+                alt="Logo"
+                className="w-[80%] h-[80%] object-contain"
+              />
             </div>
             <div>
               <h3 className="text-sm">SEE</h3>
