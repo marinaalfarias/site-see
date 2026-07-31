@@ -32,11 +32,11 @@ export function About() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg border border-border bg-card hover:shadow-lg transition-shadow"
+              className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.333rem)] max-w-[280px] p-6 rounded-lg border border-border bg-card hover:shadow-lg transition-shadow"
             >
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4 text-primary">
                 {feature.icon}
