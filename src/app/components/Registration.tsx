@@ -80,43 +80,15 @@ export function Registration() {
                   </li>
                 ))}
               </ul>
-
-              {/* Formulário Integrado ao Supabase */}
-              <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-                <input
-                  type="text"
-                  placeholder="Seu RA (ex: 123456)"
-                  value={ra}
-                  onChange={(e) => setRa(e.target.value)}
-                  required
-                  className="px-3 py-2 border border-border rounded-md bg-background text-foreground text-sm"
-                />
-                <input
-                  type="text"
-                  placeholder="Nome Completo"
-                  value={nome}
-                  onChange={(e) => setNome(e.target.value)}
-                  required
-                  className="px-3 py-2 border border-border rounded-md bg-background text-foreground text-sm"
-                />
-                <input
-                  type="email"
-                  placeholder="E-mail"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="px-3 py-2 border border-border rounded-md bg-background text-foreground text-sm"
-                />
-                
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full flex items-center justify-center gap-2 px-6 py-3 mt-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
-                >
-                  {loading ? 'Processando...' : 'Inscrever-se'}
-                  <UserPlus size={18} />
-                </button>
-              </form>
+              <a
+                href="https://forms.gle/D7AH8qX1P3YjLdau6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
+              >
+                Inscrever-se
+                <ExternalLink size={18} />
+              </a>
             </div>
             
             {/* Cartão Informativo */}
