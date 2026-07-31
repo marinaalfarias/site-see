@@ -38,7 +38,7 @@ export function Registration() {
                 ))}
               </ul>
               <a
-                href="https://forms.google.com/SEE-estudante"
+                href="https://forms.gle/D7AH8qX1P3YjLdau6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
