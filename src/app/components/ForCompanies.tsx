@@ -1,4 +1,4 @@
-import { Handshake, Target, TrendingUp, Mail, Phone, MapPin } from 'lucide-react';
+import { Handshake, Target, TrendingUp, Mail, Phone, MapPin, Instagram } from 'lucide-react';
 
 export function ForCompanies() {
   const benefits = [
@@ -54,18 +54,18 @@ export function ForCompanies() {
                   <Mail size={20} />
                 </div>
                 <p className="text-sm text-muted-foreground mb-1">Email</p>
-                <a href="mailto:patrocinio@SEE.unicamp.br" className="hover:text-primary transition-colors">
-                  patrocinio@SEE.unicamp.br
+                <a href="mailto:seefeec@unicamp.br" className="hover:text-primary transition-colors">
+                  seefeec@unicamp.br
                 </a>
               </div>
 
               <div className="flex flex-col items-center text-center p-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-3 text-primary">
-                  <Phone size={20} />
+                  <Instagram size={20} />
                 </div>
-                <p className="text-sm text-muted-foreground mb-1">Telefone</p>
-                <a href="tel:+551935211234" className="hover:text-primary transition-colors">
-                  (19) 3521-1234
+                <p className="text-sm text-muted-foreground mb-1">Instagram</p>
+                <a href="https://www.instagram.com/see.unicamp/" className="hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
+                  @see.unicamp
                 </a>
               </div>
 
@@ -80,7 +80,7 @@ export function ForCompanies() {
 
             <div className="text-center">
               <a
-                href="mailto:patrocinio@SEE.unicamp.br"
+                href="mailto:seefeec@unicamp.br"
                 className="inline-block px-8 py-4 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
               >
                 Solicitar Proposta de Patrocínio
