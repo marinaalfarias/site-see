@@ -1,4 +1,4 @@
-import { Calendar, Clock, MapPin } from 'lucide-react';
+import { Calendar, Clock, MapPin, Link } from 'lucide-react';
 
 export function Schedule() {
   const schedule = [
@@ -17,20 +17,22 @@ export function Schedule() {
         {
           time: '13:00 - 14:30',
           title: 'Palestra Cadence',
-          speaker: '-',
-          location: '-',
+          speaker: 'Líder global em software de engenharia, automação de projetos eletrônicos e análise de sistemas inteligentes, fornecendo ferramentas avançadas para criar chips, placas de circuito impresso e sistemas eletromecânicos complexos',
+          website: 'https://www.cadence.com/en_US/home.html',
+          location: 'FE13 - FEEC',
         },
         {
           time: '15:00 - 16:00',
           title: 'Palestra Radaz',
-          speaker: '*',
-          location: '*',
+          speaker: 'Empresa especializada em desenvolvimento de Radar de Sensoriamento Remoto, oferecendo o radar de banda tripla, interferométrico, polarimétrico e transportado por drone mais avançado do mercado.',
+          website: 'https://www.radaz.com.br',
+          location: 'FE13',
         },
         {
           time: '18:00 - 19:30',
           title: 'Palestra de Abertura',
-          speaker: '*',
-          location: '*',
+          speaker: '',
+          location: 'PE11',
         },
       ],
     },
@@ -47,14 +49,15 @@ export function Schedule() {
         {
           time: '16:00 - 17:00',
           title: 'Palestra Tractian',
-          speaker: '*',
-          location: '*',
+          speaker: 'Monitora máquinas industriais em tempo real, prevê falhas mecânicas e gerencia a manutenção de fábricas. Faz isso combinando sensores inteligentes (IoT), inteligência artificial e um software de gestão (CMMS)',
+          website: 'https://tractian.com',
+          location: 'FE03',
         },
         {
           time: '19:30 - 21:00',
           title: 'Roda de conversa com Ex-Alunas',
-          speaker: 'Parceria com o Coletivo das Minas!',
-          location: 'Sala 301',
+          speaker: 'Verônica, Isabella Bigatto, Vitória Reinoso',
+          location: 'PE12',
         },
       ],
     },
@@ -64,9 +67,54 @@ export function Schedule() {
       events: [
         {
           time: '10:00 - 11:00',
-          title: 'Palestra HwiT',
+          title: 'Roda de Conversa - Professores',
           speaker: 'Eng. Carlos Oliveira - CPFL',
           location: 'Auditório Principal',
+        },
+        {
+          time: '19:30 - 21:00',
+          title: 'Roda de conversa com Ex-Alunos',
+          speaker: 'Caio Franchi, Heron Fontana, Daneil Nagamini',
+          location: 'PE12',
+        },
+      ],
+    },
+    {
+      day: 'Quinta-feira',
+      date: '18/09',
+      events: [
+        {
+          time: '09:00 - 12:00',
+          title: 'Visita CCSNano',
+          speaker: 'Prof Dr. José Alexandre Diniz',
+          location: ' R. João Pandiá Calógeras, 90 - Cidade Universitária, Campinas - SP, 13083-870',
+          ctaLabel: 'Inscreva-se',
+          ctaHref: '#inscricoes',
+        },
+        {
+          time: '15:00 - 16:30',
+          title: 'Palestra Siemens Energy',
+          speaker: 'Uma das principais empresas de tecnologia de energia do mundo. A companhia trabalha com seus clientes e parceiros em sistemas de energia para o futuro, apoiando assim a transição para um mundo mais sustentável.',
+          location: 'FE03',
+        },
+        {
+          time: '19:30 - 21:00',
+          title: 'Roda de conversa com Ex-Alunos',
+          speaker: 'Caio Miike, Everton Nadlin, Renan Ribeiro Cunha',
+          location: 'PE12',
+        },
+      ],
+    },
+    {
+      day: 'Sexta-feira',
+      date: '19/09',
+      events: [
+        {
+          time: '10:00 - 11:00',
+          title: 'Palestra HwiT',
+          speaker: 'Desenvolve e fabrica produtos de alta tecnologia em hardware, atuando em fotônica coerente, design de ASICs e sistemas eletrônicos complexos',
+          website: 'https://hwit.com.br',
+          location: 'FE03',
         },
         {
           time: '14:00 - 16:30',
@@ -77,60 +125,7 @@ export function Schedule() {
           ctaHref: '#https://forms.gle/o8NwVUrHVQDZNX326',
         },
         {
-          time: '19:30 - 21:00',
-          title: 'Roda de conversa com Ex-Alunos',
-          speaker: 'Patrocinadores',
-          location: 'Pátio Central',
-        },
-      ],
-    },
-    {
-      day: 'Quinta-feira',
-      date: '18/09',
-      events: [
-        {
-          time: '09:00 - 12:00',
-          title: 'Visita CSSNano',
-          speaker: 'Professor algo',
-          location: 'Sala de Eventos',
-          ctaLabel: 'Inscreva-se',
-          ctaHref: '#inscricoes',
-        },
-        {
-          time: '15:00 - 16:30',
-          title: 'Palestra Siemens Energy',
-          speaker: 'Equipe Vivo',
-          location: 'Auditório Principal',
-        },
-        {
-          time: '19:30 - 21:00',
-          title: 'Roda de conversa com Ex-Alunos',
-          speaker: 'Eng. Pedro Alves - Siemens',
-          location: 'Sala 301',
-        },
-      ],
-    },
-    {
-      day: 'Sexta-feira',
-      date: '19/09',
-      events: [
-        {
-          time: '09:00 - 11:00',
-          title: 'Apresentação de Projetos de Alunos',
-          speaker: 'Estudantes da FEEC',
-          location: 'Auditório Principal',
-        },
-        {
-          time: '14:00 - 16:00',
-          title: 'Premiação do Hackathon',
-          speaker: 'Comissão Organizadora',
-          location: 'Auditório Principal',
-        },
-        {
-          time: '16:30 - 18:00',
           title: 'Cerimônia de Encerramento',
-          speaker: 'Diretoria da FEEC',
-          location: 'Auditório Principal',
         },
       ],
     },
@@ -160,33 +155,42 @@ export function Schedule() {
               </div>
 
               <div className="divide-y divide-border">
-                {day.events.map((event, eventIndex) => (
-                  <div key={eventIndex} className="p-6 hover:bg-accent/5 transition-colors">
-                    <div className="flex flex-col sm:flex-row gap-4">
-                      <div className="flex items-center gap-2 text-muted-foreground min-w-[140px]">
-                        <Clock size={16} />
-                        <span className="text-sm">{event.time}</span>
-                      </div>
+                {day.events.map((event, eventIndex) => {
+                  const eventLink = event.website ?? event.ctaHref;
+                  const linkLabel = event.ctaLabel ?? 'Acessar link';
+                  const isExternalLink = typeof eventLink === 'string' && eventLink.startsWith('http');
 
-                      <div className="flex-1">
-                        <h4 className="mb-1">{event.title}</h4>
-                        <p className="text-sm text-muted-foreground mb-2">{event.speaker}</p>
-                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                          <MapPin size={14} />
-                          <span>{event.location}</span>
+                  return (
+                    <div key={eventIndex} className="p-6 hover:bg-accent/5 transition-colors">
+                      <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="flex items-center gap-2 text-muted-foreground min-w-[140px]">
+                          <Clock size={16} />
+                          <span className="text-sm">{event.time}</span>
                         </div>
-                        {event.ctaLabel && event.ctaHref && (
-                          <a
-                            href={event.ctaHref}
-                            className="inline-flex items-center mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity text-sm"
-                          >
-                            {event.ctaLabel}
-                          </a>
-                        )}
+
+                        <div className="flex-1">
+                          <h4 className="mb-1">{event.title}</h4>
+                          <p className="text-sm text-muted-foreground mb-2">{event.speaker}</p>
+                          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                            <MapPin size={14} />
+                            <span>{event.location}</span>
+                          </div>
+                          {eventLink && (
+                            <a
+                              href={eventLink}
+                              target={isExternalLink ? '_blank' : undefined}
+                              rel={isExternalLink ? 'noopener noreferrer' : undefined}
+                              className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity text-sm"
+                            >
+                              <Link size={16} />
+                              {linkLabel}
+                            </a>
+                          )}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           ))}
