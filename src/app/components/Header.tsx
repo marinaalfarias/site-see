@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from '../../assets/logo.png';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ export function Header() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
               <img
-                src="/src/assets/logo.png"
+                src={logo}
                 alt="Logo"
                 className="w-[80%] h-[80%] object-contain"
               />

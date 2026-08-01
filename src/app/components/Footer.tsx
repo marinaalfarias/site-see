@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Mail, Facebook, Twitter } from 'lucide-react';
+import logo from '../../assets/logo.png';
 
 export function Footer() {
   const socialLinks = [
@@ -29,7 +30,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 bg-primary-foreground/10 rounded-lg flex items-center justify-center overflow-hidden">
                 <img
-                  src="/src/assets/logo.png"
+                  src={logo}
                   alt="Logo"
                   className="w-[80%] h-[80%] object-contain"
                 />
