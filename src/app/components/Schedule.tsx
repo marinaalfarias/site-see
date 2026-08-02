@@ -74,7 +74,7 @@ export function Schedule() {
         {
           time: '19:30 - 21:00',
           title: 'Roda de conversa com Ex-Alunos',
-          speaker: 'Caio Franchi, Heron Fontana, Daneil Nagamini',
+          speaker: 'Caio Franchi, Heron Fontana, Daniel Nagamini',
           location: 'PE12',
         },
       ],
@@ -119,8 +119,6 @@ export function Schedule() {
         {
           time: '14:00 - 16:30',
           title: 'Visita Técnica à HwiT',
-          speaker: 'Prof. Ana Costa - Unicamp',
-          location: 'Laboratório 3',
           ctaLabel: 'Inscreva-se',
           ctaHref: '#https://forms.gle/o8NwVUrHVQDZNX326',
         },
