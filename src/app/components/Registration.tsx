@@ -41,7 +41,7 @@ export function Registration() {
                 <ul className="space-y-3 mb-8 w-full max-w-md">
                   {perks.map((perk, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 size={20} className="text-primary mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 size={20} className="text-#00407d mt-0.5 flex-shrink-0" />
                       <span className="text-sm">{perk}</span>
                     </li>
                   ))}
