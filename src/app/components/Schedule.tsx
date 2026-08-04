@@ -38,7 +38,7 @@ export function Schedule() {
     },
     {
       day: 'Terça-feira',
-      date: '16/09',
+      date: '11/08',
       events: [
         {
           time: '12:00 - 15:30',
@@ -63,13 +63,11 @@ export function Schedule() {
     },
     {
       day: 'Quarta-feira',
-      date: '17/09',
+      date: '12/08',
       events: [
         {
           time: '10:00 - 11:00',
           title: 'Roda de Conversa - Professores',
-          speaker: 'Eng. Carlos Oliveira - CPFL',
-          location: 'Auditório Principal',
         },
         {
           time: '19:30 - 21:00',
@@ -81,7 +79,7 @@ export function Schedule() {
     },
     {
       day: 'Quinta-feira',
-      date: '18/09',
+      date: '13/08',
       events: [
         {
           time: '09:00 - 12:00',
@@ -100,14 +98,14 @@ export function Schedule() {
         {
           time: '19:30 - 21:00',
           title: 'Roda de conversa com Ex-Alunos',
-          speaker: 'Caio Miike, Everton Nadlin, Renan Ribeiro Cunha',
+          speaker: 'Caio Miike, Everton Nadlin, Renan Ribeiro Cunha, Natália Ruivo',
           location: 'PE12',
         },
       ],
     },
     {
       day: 'Sexta-feira',
-      date: '19/09',
+      date: '14/08',
       events: [
         {
           time: '10:00 - 11:00',
