@@ -104,8 +104,9 @@ export function Schedule() {
         {
           time: '15:00 - 16:30',
           title: 'Palestra Siemens Energy',
-          speaker: 'Uma das principais empresas de tecnologia de energia do mundo. A companhia trabalha com seus clientes e parceiros em sistemas de energia para o futuro, apoiando assim a transição para um mundo mais sustentável.',
+          speaker: 'Transformadores de Potência: A Tecnologia que Sustenta a Revolução da Inteligência Artificial',
           location: 'FE03',
+          website: 'https://www.siemens-energy.com/br/pt/home.html',
         },
         {
           time: '19:30 - 21:00',
@@ -134,7 +135,7 @@ export function Schedule() {
           ctaHref: '#https://forms.gle/o8NwVUrHVQDZNX326',
         },
         {
-          title: 'Cerimônia de Encerramento',
+          title: 'Evento de Encerramento',
         },
       ],
     },
