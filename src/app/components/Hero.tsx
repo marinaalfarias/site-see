@@ -17,7 +17,7 @@ export function Hero() {
           </span>
         </div>
 
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl mb-6 bg-gradient-to-r from-secondary to-secondary/60 bg-clip-text text-transparent">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
           Semana da Engenharia Elétrica
         </h1>
 
