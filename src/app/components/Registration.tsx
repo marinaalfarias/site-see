@@ -47,7 +47,8 @@ export function Registration() {
                   href="https://forms.gle/D7AH8qX1P3YjLdau6"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary rounded-lg hover:opacity-90 transition-opacity text-[#fbc12d]"
+                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
+                  style={{ backgroundColor: '#fbc12dbc', color: '#00407d' }}
                 >
                   Inscrever-se
                   <ExternalLink size={18} />
