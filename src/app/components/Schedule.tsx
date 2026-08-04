@@ -17,14 +17,14 @@ export function Schedule() {
         {
           time: '13:00 - 14:30',
           title: 'Palestra Cadence',
-          speaker: 'Líder global em software de engenharia, automação de projetos eletrônicos e análise de sistemas inteligentes, fornecendo ferramentas avançadas para criar chips, placas de circuito impresso e sistemas eletromecânicos complexos',
+          speaker: 'Da Ideia ao Chip: Como a Cadence Está Transformando a Inovação em Semicondutores',
           website: 'https://www.cadence.com/en_US/home.html',
           location: 'FE13 - FEEC',
         },
         {
           time: '15:00 - 16:00',
           title: 'Palestra Radaz',
-          speaker: 'Empresa especializada em desenvolvimento de Radar de Sensoriamento Remoto, oferecendo o radar de banda tripla, interferométrico, polarimétrico e transportado por drone mais avançado do mercado.',
+          speaker: 'Da Unicamp para o Mundo: a jornada da Radaz em sensoriamento remoto',
           website: 'https://www.radaz.com.br',
           location: 'FE13',
         },
@@ -49,7 +49,7 @@ export function Schedule() {
         {
           time: '16:00 - 17:00',
           title: 'Palestra Tractian',
-          speaker: 'Monitora máquinas industriais em tempo real, prevê falhas mecânicas e gerencia a manutenção de fábricas. Faz isso combinando sensores inteligentes (IoT), inteligência artificial e um software de gestão (CMMS)',
+          speaker: 'Apresentação da Tractian, falar sobre a área comercial e mostrar, na prática, como é o dia a dia de uma carreira em vendas técnicas. Também haverá divulgação do Programa de Trainee.',
           website: 'https://tractian.com',
           location: 'FE03',
         },
@@ -68,6 +68,18 @@ export function Schedule() {
         {
           time: '10:00 - 11:00',
           title: 'Roda de Conversa - Professores',
+        },
+        {
+          time: '14:00 - 15:00',
+          title: 'O Papel dos Engenheiros no Mercado Financeiro',
+          speaker: 'GMF - Grupo de Mercado Financeiro da Unicamp',
+          location: 'FE03',
+        },
+        {
+          time: '16:00 - 17:00',
+          title: 'O Papel dos Engenheiros nas Empresas de Consultoria',
+          speaker: 'CCU - Clube de Consultoria da Unicamp',
+          location: 'FE03',
         },
         {
           time: '19:30 - 21:00',
@@ -154,7 +166,7 @@ export function Schedule() {
               <div className="divide-y divide-border">
                 {day.events.map((event, eventIndex) => {
                   const eventLink = event.website ?? event.ctaHref;
-                  const linkLabel = event.ctaLabel ?? 'Acessar link';
+                  const linkLabel = event.ctaLabel ?? 'Saiba mais sobre a empresa aqui!';
                   const isExternalLink = typeof eventLink === 'string' && eventLink.startsWith('http');
 
                   return (
