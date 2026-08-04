@@ -34,9 +34,6 @@ export function Registration() {
               <div className="relative z-10 flex h-full flex-col items-center justify-center text-center">
                 <div className="mb-6">
                   <h3 className="text-2xl mb-2">Estudante</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Válido com comprovante de matrícula
-                  </p>
                 </div>
                 <ul className="space-y-3 mb-8 w-full max-w-md">
                   {perks.map((perk, index) => (
@@ -50,7 +47,7 @@ export function Registration() {
                   href="https://forms.gle/D7AH8qX1P3YjLdau6"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
+                  className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-#00407d text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
                 >
                   Inscrever-se
                   <ExternalLink size={18} />
