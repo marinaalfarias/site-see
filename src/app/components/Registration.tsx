@@ -57,18 +57,9 @@ export function Registration() {
             </div>
 
             <div className="flex min-h-[420px] items-center justify-center rounded-2xl border border-border bg-card p-8 text-center shadow-sm">
-              <div className="max-w-md w-full">
-                <h3 className="text-2xl mb-4">Benefícios</h3>
-                <ul className="space-y-3">
-                  {perks.map((perk, index) => (
-                    <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 size={20} className="text-[#00407d] mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">{perk}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+                <p className="text-lg text-muted-foreground max-w-md">
+                Te esperamos ansiosos para esse evento incrível! Fique atento às nossas redes sociais para mais informações sobre as inscrições e novidades do evento.
+              </p>
           </div>
         </div>
       </div>
