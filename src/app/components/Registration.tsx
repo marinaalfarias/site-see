@@ -48,7 +48,6 @@ export function Registration() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary rounded-lg hover:opacity-90 transition-opacity"
-                  style=secondary
                 >
                   Inscrever-se
                   <ExternalLink size={18} />
