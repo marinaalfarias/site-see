@@ -117,6 +117,7 @@ export function Schedule() {
         {
           time: '14:00 - 16:30',
           title: 'Visita Técnica à HwiT',
+          location: 'Saída do ônibus da FEEC',
           ctaLabel: 'Inscreva-se',
           ctaHref: '#https://forms.gle/o8NwVUrHVQDZNX326',
         },
