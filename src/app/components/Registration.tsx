@@ -13,7 +13,9 @@ export function Registration() {
 
   return (
     <section id="inscricoes" className="py-20 bg-accent/10">
+      {/* DIV ABERTA AQUI: max-w-7xl */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl mb-4">Inscrições</h2>
           <p className="text-lg text-muted-foreground">
@@ -23,6 +25,7 @@ export function Registration() {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
             <div
               className="relative overflow-hidden rounded-2xl border border-border bg-card p-8 shadow-sm"
               style={{
@@ -60,9 +63,11 @@ export function Registration() {
                 <p className="text-lg text-muted-foreground max-w-md">
                 Te esperamos ansiosos para esse evento incrível! Fique atento às nossas redes sociais para mais informações sobre as inscrições e novidades do evento.
               </p>
-          </div>
+            </div>
+
+          </div> 
         </div>
-      </div>
+      </div> 
     </section>
   );
 }
