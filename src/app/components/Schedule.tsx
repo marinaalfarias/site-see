@@ -71,13 +71,13 @@ export function Schedule() {
         },
         {
           time: '14:00 - 15:00',
-          title: 'O Papel dos Engenheiros no Mercado Financeiro',
+          title: 'Porque a Engenharia está ligada ao Mercado Financeiro?',
           speaker: 'GMF - Grupo de Mercado Financeiro da Unicamp',
           location: 'FE03',
         },
         {
           time: '16:00 - 17:00',
-          title: 'O Papel dos Engenheiros nas Empresas de Consultoria',
+          title: 'Consulting 101: o que é a consultoria e como os engenheiros se encaixam nesse mercado de trabalho',
           speaker: 'CCU - Clube de Consultoria da Unicamp',
           location: 'FE03',
         },
@@ -123,7 +123,7 @@ export function Schedule() {
         {
           time: '10:00 - 11:00',
           title: 'Palestra HwiT',
-          speaker: 'Desenvolve e fabrica produtos de alta tecnologia em hardware, atuando em fotônica coerente, design de ASICs e sistemas eletrônicos complexos',
+          speaker: 'Hardware de Alta Complexidade Do Silício ao Produto Qualificado',
           website: 'https://hwit.com.br',
           location: 'FE03',
         },
