@@ -84,7 +84,7 @@ export function Schedule() {
         {
           time: '19:30 - 21:00',
           title: 'Roda de conversa com Ex-Alunos',
-          speaker: 'Caio Franchi, Heron Fontana, Daniel Nagamini',
+          speaker: 'Caio Franchi, Gustavo Ishibashi, Daniel Nagamini',
           location: 'PE12',
         },
       ],
